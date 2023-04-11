@@ -1,0 +1,27 @@
+<script>
+    console.log("ReactJS");
+    const eventHandle = function(a, b){
+        const sum = a + b;
+        return sum;
+    }
+    console.log(eventHandle(30, 70));
+
+    const eventHandle6 = (a, b) => {
+        const sum = a + b;
+        return sum;
+    }
+
+    console.log(eventHandle6(30,70));
+
+    const eventHandle6_1 = (a, b) => a + b;
+    console.log(eventHandle6_1(30, 70));
+
+    const home =`Home`
+    const str = `
+    <ul>
+        <li>${home}</li>
+        <li>ABOUT</li>
+    </ul>
+    `
+    document.write(str)
+</script>
